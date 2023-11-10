@@ -1,2 +1,2 @@
-const w = 'Whatsapp'
+const w = 'Whatsap'
 console.log(w)
