@@ -8,5 +8,6 @@ console.log(m)
 
 function main() {
     console.log('Ainzedamanga')
+    console.log('Merging')
 }
 main()
