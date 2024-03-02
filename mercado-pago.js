@@ -8,5 +8,8 @@ console.log(m)
 
 function main() {
     console.log('Ainzedamanga')
+    console.log('Merging')
+    console.log('Squashing')
+    console.log('Learning')
 }
 main()
