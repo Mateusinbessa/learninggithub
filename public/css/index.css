@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+}
+header {
+    margin-bottom: 20px;
+}
+
+/* UTILITYS  */
+.flex {
+    display: flex;
+}
+
+/* CONTAINER */
+.max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.container-header {
+    display: flex;
+    gap: 20px;
+}
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 9999px;
+    border: 1px solid rgb(243, 213, 213);
+}
+
+/* MAIN - SOBRE MIM */
+.container-about {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sobre-mim {
+    gap: 10px;
+}
+
+/* MAIN - SKILLS */
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: rgb(32, 178, 241);
+}
+
+/* LISTAS */
+ul {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
