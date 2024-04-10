@@ -5,80 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mateus Bessa - Currículo</title>
+    <script src="components/Components.js"></script>
+    <script src="constants/Constants.js"></script>
     <link rel="stylesheet" href="/public/css/index.css">
-    <script defer src="/script/index.js"></script>
 </head>
 
 <body>
-    <header>
-        <section class="max-container container-header">
-            <div class="image-header">
-                <img class="perfil" src="perfil.jpeg" alt="Foto de perfil">
-            </div>
-            <div class="info-header">
-                <h1>Mateus Bessa</h1>
-                <p><strong>Back-end developer</strong></p>
-                <p><em><q>Eu desenvolvo para tornar a vida das pessoas mais simples</q> - Mateus Bessa</em></p>
-            </div>
-        </section>
-    </header>
-    <section class="max-container">
-        <main>
-            <hr />
-            <section class="container-about">
-                <div class="flex sobre-mim">
-                    <img width="45" alt="about"
-                        src="https://camo.githubusercontent.com/c1761f1167f1e3b03f4f3b8da7177973b61a1cc7f002f5463ec99903c5de88ef/68747470733a2f2f7261772e6769746875622e636f6d2f656c697a61726f762f656c697a61726f762f6d61737465722f61626f75742e706e67" />
-                    <h2>Sobre mim</h2>
-                </div>
-                <ul>
-                    <li>🎈 Um <strong>curioso</strong> nato, com sede de conhecimento, <strong>obcecado</strong> pelo
-                        processo, os resultados são consequências.</li>
-                    <li>😱 Estudo <strong>C</strong>, e <strong>Rust</strong> por diversão no meu tempo livre.</li>
-                    <li>👩‍💻 Trabalhando um pouco com <strong>Python</strong> em alguns projetos atualmente.</li>
-                    <li>😎 Estou começando a achar o <strong>back-end</strong> interessante...</li>
-                </ul>
-            </section>
-            <section class="container-skills">
-                <h2>🚀 Skills</h2>
-                <details>
-                    <summary><strong>Front-end</strong></summary>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </details>
-                <details>
-                    <summary><strong>Back-end</strong></summary>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                    </ul>
-                </details>
-                <details>
-                    <summary><strong>Databases</strong></summary>
-                    <ul>
-                        <li>Postgres</li>
-                        <li>MySQL</li>
-                    </ul>
-                </details>
-                <details>
-                    <summary><strong>DevOps</strong></summary>
-                    <ul>
-                        <li>Docker</li>
-                        <li>Git</li>
-                    </ul>
-                </details>
-            </section>
-        </main>
-    </section>
-    <footer class="footer">
-        <div class="max-container">
-            <p>@Copyright fi do linus</p>
-        </div>
-    </footer>
+    <script>
+        Header(HeaderArray)
+        Row()
+        About(AboutMeArray)
+        Skills()
+        Details('Front-end', Frontend)
+        Details('Back-end', Backend)
+        Details('Databases', Databases)
+        Details('DevOps', DevOps)
+        Footer(FooterText)
+    </script>
 </body>
 
 </html>
